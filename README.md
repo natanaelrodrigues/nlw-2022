@@ -8,3 +8,4 @@
 ## Day 1
 
 npm create vite@latest
+npm install
