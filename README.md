@@ -5,6 +5,8 @@
 -- React
 -- React Native
 
+### REACT JS / VITE
+
 ## Day 1
 
 npm create vite@latest
@@ -25,3 +27,24 @@ npm install --save-dev tailwind-scrollbar
 require("tailwind-scrollbar")
 
 npm install html2canvas
+
+### NODEJS
+
+## Day 3
+
+npm init -y
+npm i typescript @types/node ts-node-dev -D
+npx tsc --init
+
+- Alterado tsconfig.json no "target": "es2020",
+- Alterado tsconfig.json no "rootDir": "./src",
+- Alterado tsconfig.json no "outDir": "./dist",
+
+- Alterado no package.json e criado script "dev": "ts-node-dev src/server.ts"
+
+npm i express
+npm i -D @types/express
+npm i prisma -D
+npm i @prisma/client
+npx prisma init
+npx prisma migrate dev
