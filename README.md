@@ -59,4 +59,7 @@ npm install ts-node -D
 
 https://swc.rs/docs/usage/jest
 npm i -D jest @swc/jest
- npm i @types/jest -d
+npm i @types/jest -d
+
+npm i cors
+npm i @types/cors -D
