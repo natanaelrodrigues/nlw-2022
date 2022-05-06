@@ -48,3 +48,15 @@ npm i prisma -D
 npm i @prisma/client
 npx prisma init
 npx prisma migrate dev
+npm i nodemailer
+npm install @types/nodemailer -D
+
+https://mailtrap.io/
+
+npm install jest -D
+npx jest --init
+npm install ts-node -D
+
+https://swc.rs/docs/usage/jest
+npm i -D jest @swc/jest
+ npm i @types/jest -d
