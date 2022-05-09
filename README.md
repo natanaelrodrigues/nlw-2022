@@ -63,3 +63,13 @@ npm i @types/jest -d
 
 npm i cors
 npm i @types/cors -D
+
+
+### ReactNative
+
+## Day 4
+https://efficient-sloth-d85.notion.site/Instalando-Expo-cc5bfac8f19a41e394889e885355f261ex
+--- ISNTALAR O expo-cli
+npm install -g expo-cli
+--- cria o projeto em expo
+expo init mobile
