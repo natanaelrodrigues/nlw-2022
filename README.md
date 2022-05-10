@@ -91,4 +91,4 @@ npm install react-native-gesture-handler@~2.1.0
 expo install expo-splash-screen
 
 
-parou em 53:43
+parou em 1:02s
