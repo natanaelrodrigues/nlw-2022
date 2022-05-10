@@ -73,3 +73,20 @@ https://efficient-sloth-d85.notion.site/Instalando-Expo-cc5bfac8f19a41e394889e88
 npm install -g expo-cli
 --- cria o projeto em expo
 expo init mobile
+--- para rodar o projeto
+expo start
+instalar a extenção do VSCode rcomponent
+no rcomponent
+rnso + tab (snipt para criar o style.ts)
+rnbc + tab ( cria um documento base para o react native)
+expo install expo-font @expo-google-fonts/inter
+expo install expo-app-loading
+npm install --save phosphor-react-native
+expo install react-native-svg
+npm install react-native-iphone-x-helper
+expo install @gorhom/bottom-sheet@^4
+expo install react-native-reanimated
+expo install react-native-gesture-handlercontainer
+
+
+parou em 53:43
