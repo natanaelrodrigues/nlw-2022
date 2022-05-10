@@ -87,6 +87,8 @@ npm install react-native-iphone-x-helper
 expo install @gorhom/bottom-sheet@^4
 expo install react-native-reanimated
 expo install react-native-gesture-handlercontainer
+npm install react-native-gesture-handler@~2.1.0
+expo install expo-splash-screen
 
 
 parou em 53:43
