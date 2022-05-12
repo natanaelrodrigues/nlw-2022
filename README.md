@@ -92,3 +92,6 @@ expo install expo-splash-screen
 expo install react-native-view-shot
 npm install axios
 expo install expo-file-system
+
+## Day 5
+npm install axios
