@@ -89,6 +89,7 @@ expo install react-native-reanimated
 expo install react-native-gesture-handlercontainer
 npm install react-native-gesture-handler@~2.1.0
 expo install expo-splash-screen
+expo install react-native-view-shot
+npm install axios
 
-
-parou em 1:02s
+parou em 1:53s
