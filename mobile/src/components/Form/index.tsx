@@ -8,6 +8,7 @@ import { theme } from '../../theme';
 import { FeedbackType } from '../../components/Widget';
 import { Button } from '../../components/Button';
 import { ScreenshotButton } from '../../components/ScreenshotButton';
+import * as fileSystem from 'expo-file-system';
 
 import { feedbackTypes } from '../../utils/feedbackTypes';
 import { captureScreen } from 'react-native-view-shot'
@@ -48,10 +49,12 @@ export function Form({feedbackType, onFeedbackCanceled, onFeedbackSent} : Props 
 
         setIssendingFeedback(true);
 
+        const screenshotBase64 = screenshot && await fileSystem.readAsStringAsync(screenshot,{encoding: 'base64'})
+
         try{
             await api.post('/feedbacks',{
                type: feedbackType,
-               screenshot,
+               screenshot: `data:image/png;base64, ${screenshotBase64}`,
                comment 
             })
             onFeedbackSent();

@@ -62,7 +62,7 @@ npm i -D jest @swc/jest
 npm i @types/jest -d
 
 npm i cors
-npm i @types/cors -D
+npm i --save-dev @types/cors
 
 
 ### ReactNative
@@ -91,5 +91,4 @@ npm install react-native-gesture-handler@~2.1.0
 expo install expo-splash-screen
 expo install react-native-view-shot
 npm install axios
-
-parou em 1:53s
+expo install expo-file-system
